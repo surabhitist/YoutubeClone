@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding-bottom: 1000px;
+  font-family: Roboto;
+}
+
+.top-header {
+  background-color: blue;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.side-nav {
+  width: 70px;
+  background-color: blueviolet;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.videos {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8px;
+  padding-top: 70px;
+  row-gap: 8px;
+}
+
+.videos-section {
+  background-color: aqua;
+  height: 400px;
+  margin: 2px;
+  margin: 0;
+}
