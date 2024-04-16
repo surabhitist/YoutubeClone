@@ -1,13 +1,12 @@
 body {
   background-color: black;
   margin: 0;
-  padding-bottom: 1000px;
   font-family: Roboto;
 }
 
 .top-header {
   background-color: blue;
-  height: 70px;
+  height: 56px;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,13 +14,21 @@ body {
   z-index: 99;
 }
 
+.top-tabs {
+  height: 56px;
+  padding-top: 56px;
+  background-color: brown;
+  margin-left: 72px;
+}
+
 .side-nav {
-  width: 70px;
+  width: 216px;
   background-color: blueviolet;
   position: fixed;
-  top: 70px;
+  top: 56px;
   left: 0px;
   bottom: 0px;
+  height: 735px;
 }
 
 .videos {
@@ -29,7 +36,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 8px;
-  padding-top: 70px;
+  padding-top: 24px;
+  margin-left: 216px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
   row-gap: 8px;
 }
 
@@ -38,4 +49,5 @@ body {
   height: 400px;
   margin: 2px;
   margin: 0;
+  border-radius: 18px;
 }
