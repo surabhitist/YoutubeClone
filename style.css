@@ -5,25 +5,69 @@ body {
 }
 
 .top-header {
-  background-color: blue;
   height: 56px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
+  color: white;
+  display: flex;
 }
 
-.top-tabs {
+.topbar-left {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.topbar-middle {
+  flex: 5;
+  background-color: blueviolet;
+}
+
+.topbar-right {
+  width: 200px;
+  background-color: blue;
+}
+
+.menu-icon-div {
+  flex: 1;
+  padding-left: 23px;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.train-logo-div {
+  flex: 1;
+}
+
+.youtube-logo {
+  width: 100%;
+}
+
+.blank-logo-div {
+  flex: 1;
+}
+
+.search-textbox {
+}
+
+/* .top-tabs {
   height: 56px;
   padding-top: 56px;
   background-color: brown;
   margin-left: 229px;
-}
+} */
 
 .side-nav {
   width: 229px;
-  background-color: blueviolet;
   position: fixed;
   top: 56px;
   left: 0px;
@@ -35,7 +79,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 18px;
-  padding-top: 24px;
+  padding-top: 85px;
   margin-left: 229px;
   padding-left: 36px;
   padding-right: 22px;
