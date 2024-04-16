@@ -18,11 +18,11 @@ body {
   height: 56px;
   padding-top: 56px;
   background-color: brown;
-  margin-left: 72px;
+  margin-left: 229px;
 }
 
 .side-nav {
-  width: 216px;
+  width: 229px;
   background-color: blueviolet;
   position: fixed;
   top: 56px;
@@ -37,7 +37,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 8px;
   padding-top: 24px;
-  margin-left: 216px;
+  margin-left: 229px;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 8px;
